@@ -1,0 +1,128 @@
+body{
+    background-image: linear-gradient(to right, rgb(201, 119, 119), rgb(231, 25, 180));
+    #navBar{
+        background-color: rgb(247, 187, 96)!important;
+        .navbar-brand{
+            color: rgb(253, 253, 253);
+            font-size: 40px;
+            text-shadow: 5px 5px 5px #ccc;
+            animation-duration: 2s;
+            animation-name: aparecer;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            @keyframes aparecer{
+                0%{
+                    opacity: 0;
+                }
+                100%{
+                    opacity: 1;
+                }
+            }
+        }
+        .navbar-nav a{
+            color: $azul !important;
+            font-size: 15px;
+        }
+        .navbar-nav a:hover{
+            color: $verde !important;
+        } 
+    }
+    .carrouselName{
+        color: $negro;
+    }
+    .main{
+        .main__maspedidos__name{
+            color:$blanco;
+            font-size: 20px;
+        }
+        .proPrin{
+            color: gainsboro;
+            font-size: 30px;
+            .proPrin img{
+                max-width: 350px;
+            }
+            .proPrin__name{
+                color: $blanco;
+                font-size: 20px;
+            }
+        }
+        .main__infoGeneral{  
+            padding-top: 10px;
+        }  
+    }
+    .footer{
+        background-color: $naranja;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .footer__legal{
+            color: $azul;
+            font-size: 15px;
+        }
+        .footer__redes{
+            display: flex;
+        }
+        $redes: whatsapp, twitter, facebook, instagram;
+
+
+        @each $red in $redes {
+         .#{$red} {
+             background-image: url(../Imágenes/#{$red}.png);
+             background-position: center;
+             background-repeat: no-repeat;
+             width: 30px;
+             height: 30px;
+            }
+        }
+    }
+    @media only screen and (max-width: 767px){
+        .rounded-circle{
+            width: 170px;
+            height: 102px;
+        }
+
+        iframe{
+            padding-left: 150px;
+        }
+    }
+
+    
+    @media only screen and (min-width: 768px){
+        .rounded-circle{
+            width: 170px;
+            height: 102px;
+        }
+
+        iframe{
+            padding-left: 150px;
+        }
+    }
+    @media only screen and (min-width: 1024px){
+        .rounded-circle{
+            width: 220px;
+            height: 152px;
+        }
+        .main__infoGeneral{
+           display: flex;
+           flex-wrap: wrap;
+           padding-left: 100px;
+           row-gap: 5px;
+        }  
+    }
+    @media only screen and (min-width: 1200px){
+        .rounded-circle{
+            width: 304px;
+            height: 236px;
+        }
+        .main__infoGeneral{
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0px;
+        }  
+            
+    }
+}
+
+
+
+

@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(to right, rgb(201, 119, 119), rgb(231, 25, 180));
+    #navBar{
+        background-color: rgb(247, 187, 96)!important;
+        .navbar-brand{
+            color: rgb(253, 253, 253);
+            font-size: 40px;
+            text-shadow: 5px 5px 5px #ccc;
+            animation-duration: 2s;
+            animation-name: aparecer;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            @keyframes aparecer{
+                0%{
+                    opacity: 0;
+                }
+                100%{
+                    opacity: 1;
+                }
+            }
+        }
+        .navbar-nav a{
+            color: $azul !important;
+            font-size: 15px;
+        }
+        .navbar-nav a:hover{
+            color: $verde !important;
+        } 
+    }
+    .contenedor{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .contenedor__historia{
+            display: flex;
+            flex: 1 1 70%;
+            h2{
+                font-size: 26px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+            }
+        }
+        .contenedor__aside img{
+            border-radius: 5%;
+            height: 600px;
+        }
+    }
+    .footer{
+        background-color: $naranja;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .footer__legal{
+            color: $azul;
+            font-size: 15px;
+        }
+        .footer__redes{
+            display: flex;
+        }
+        $redes: whatsapp, twitter, facebook, instagram;
+
+
+        @each $red in $redes {
+         .#{$red} {
+             background-image: url(../Imágenes/#{$red}.png);
+             background-position: center;
+             background-repeat: no-repeat;
+             width: 30px;
+             height: 30px;
+            }
+        }
+    }
+}
+
+
+
