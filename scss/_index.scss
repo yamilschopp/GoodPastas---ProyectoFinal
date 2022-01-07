@@ -62,18 +62,17 @@ body{
         .footer__redes{
             display: flex;
         }
-        $redes: whatsapp, twitter, facebook, instagram;
+        $redes: facebook,instagram,twitter,whatsapp;
 
 
         @each $red in $redes {
          .#{$red} {
-             background-image: url(../Imágenes/#{$red}.png);
+             background-image: url(/iconos/#{$red}.png);
              background-position: center;
              background-repeat: no-repeat;
             }
         }
     }
-
     @media only screen and (max-width:768px){
         .rounded-circle{
             width: 150px;

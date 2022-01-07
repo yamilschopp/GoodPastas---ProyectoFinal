@@ -52,20 +52,20 @@ body {
       font-size: 15px; }
     body .footer .footer__redes {
       display: flex; }
-    body .footer .whatsapp {
-      background-image: url(../Imágenes/whatsapp.png);
-      background-position: center;
-      background-repeat: no-repeat; }
-    body .footer .twitter {
-      background-image: url(../Imágenes/twitter.png);
-      background-position: center;
-      background-repeat: no-repeat; }
     body .footer .facebook {
-      background-image: url(../Imágenes/facebook.png);
+      background-image: url(/iconos/facebook.png);
       background-position: center;
       background-repeat: no-repeat; }
     body .footer .instagram {
-      background-image: url(../Imágenes/instagram.png);
+      background-image: url(/iconos/instagram.png);
+      background-position: center;
+      background-repeat: no-repeat; }
+    body .footer .twitter {
+      background-image: url(/iconos/twitter.png);
+      background-position: center;
+      background-repeat: no-repeat; }
+    body .footer .whatsapp {
+      background-image: url(/iconos/whatsapp.png);
       background-position: center;
       background-repeat: no-repeat; }
   @media only screen and (max-width: 768px) {
@@ -160,20 +160,20 @@ body {
       font-size: 15px; }
     body .footer .footer__redes {
       display: flex; }
-    body .footer .whatsapp {
-      background-image: url(../Imágenes/whatsapp.png);
-      background-position: center;
-      background-repeat: no-repeat; }
-    body .footer .twitter {
-      background-image: url(../Imágenes/twitter.png);
-      background-position: center;
-      background-repeat: no-repeat; }
     body .footer .facebook {
-      background-image: url(../Imágenes/facebook.png);
+      background-image: url(/iconos/facebook.png);
       background-position: center;
       background-repeat: no-repeat; }
     body .footer .instagram {
-      background-image: url(../Imágenes/instagram.png);
+      background-image: url(/iconos/instagram.png);
+      background-position: center;
+      background-repeat: no-repeat; }
+    body .footer .twitter {
+      background-image: url(/iconos/twitter.png);
+      background-position: center;
+      background-repeat: no-repeat; }
+    body .footer .whatsapp {
+      background-image: url(/iconos/whatsapp.png);
       background-position: center;
       background-repeat: no-repeat; }
   @media screen and (max-width: 1199px) {
@@ -626,8 +626,7 @@ body {
       grid-column: 1/2;
       grid-row: 1/2; }
     body .contenedorEspeciales .especiales1:hover {
-      transform: scale(1.2, 1.2);
-      width: 500px;
+      transform: scale(1.2);
       transition: 1s; }
     body .contenedorEspeciales .especiales2 {
       background-image: url(../imágenes/boxPostres2.jpg);
@@ -635,8 +634,7 @@ body {
       grid-column: 2/3;
       grid-row: 1/2; }
     body .contenedorEspeciales .especiales2:hover {
-      transform: scale(1.2, 1.2);
-      width: 500px;
+      transform: scale(1.2);
       transition: 1s; }
     body .contenedorEspeciales .especiales3 {
       background-image: url(../imágenes/boxPadre2.jpg);
@@ -644,8 +642,7 @@ body {
       grid-column: 1/2;
       grid-row: 2/3; }
     body .contenedorEspeciales .especiales3:hover {
-      transform: scale(1.2, 1.2);
-      width: 500px;
+      transform: scale(1.2);
       transition: 1s; }
     body .contenedorEspeciales .especiales4 {
       background-image: url(../imágenes/boxMadre1.jpg);
@@ -653,8 +650,7 @@ body {
       grid-column: 2/3;
       grid-row: 2/3; }
     body .contenedorEspeciales .especiales4:hover {
-      transform: scale(1.2, 1.2);
-      width: 500px;
+      transform: scale(1.2);
       transition: 1s; }
     body .contenedorEspeciales .especiales5 {
       background-image: url(../imágenes/boxMadre2.jpg);
@@ -662,8 +658,7 @@ body {
       grid-column: 1/2;
       grid-row: 3/4; }
     body .contenedorEspeciales .especiales5:hover {
-      transform: scale(1.2, 1.2);
-      width: 500px;
+      transform: scale(1.2);
       transition: 1s; }
     body .contenedorEspeciales .especiales6 {
       background-image: url(../imágenes/boxMadre3.jpg);
@@ -671,8 +666,7 @@ body {
       grid-column: 2/3;
       grid-row: 3/4; }
     body .contenedorEspeciales .especiales6:hover {
-      transform: scale(1.2, 1.2);
-      width: 500px;
+      transform: scale(1.2);
       transition: 1s; }
   body .footer {
     background-color: #f7bb60;
