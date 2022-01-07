@@ -53,21 +53,29 @@ body {
     body .footer .footer__redes {
       display: flex; }
     body .footer .facebook {
-      background-image: url(/iconos/facebook.png);
+      background-image: url(../iconos/facebook.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .instagram {
-      background-image: url(/iconos/instagram.png);
+      background-image: url(../iconos/instagram.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .twitter {
-      background-image: url(/iconos/twitter.png);
+      background-image: url(../iconos/twitter.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .whatsapp {
-      background-image: url(/iconos/whatsapp.png);
+      background-image: url(../iconos/whatsapp.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
   @media only screen and (max-width: 768px) {
     body .rounded-circle {
       width: 150px;
@@ -161,21 +169,29 @@ body {
     body .footer .footer__redes {
       display: flex; }
     body .footer .facebook {
-      background-image: url(/iconos/facebook.png);
+      background-image: url(../iconos/facebook.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .instagram {
-      background-image: url(/iconos/instagram.png);
+      background-image: url(../iconos/instagram.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .twitter {
-      background-image: url(/iconos/twitter.png);
+      background-image: url(../iconos/twitter.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .whatsapp {
-      background-image: url(/iconos/whatsapp.png);
+      background-image: url(../iconos/whatsapp.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
   @media screen and (max-width: 1199px) {
     body .contenedor {
       flex-direction: column; }
@@ -287,22 +303,30 @@ body {
       font-size: 15px; }
     body .footer .footer__redes {
       display: flex; }
-    body .footer .whatsapp {
-      background-image: url(../Imágenes/whatsapp.png);
-      background-position: center;
-      background-repeat: no-repeat; }
-    body .footer .twitter {
-      background-image: url(../Imágenes/twitter.png);
-      background-position: center;
-      background-repeat: no-repeat; }
     body .footer .facebook {
-      background-image: url(../Imágenes/facebook.png);
+      background-image: url(../iconos/facebook.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .instagram {
-      background-image: url(../Imágenes/instagram.png);
+      background-image: url(../iconos/instagram.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
+    body .footer .twitter {
+      background-image: url(../iconos/twitter.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
+    body .footer .whatsapp {
+      background-image: url(../iconos/whatsapp.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
   @media only screen and (max-width: 768px) {
     body .rounded-circle {
       width: 150px;
@@ -497,22 +521,30 @@ body {
       font-size: 15px; }
     body .footer .footer__redes {
       display: flex; }
-    body .footer .whatsapp {
-      background-image: url(../Imágenes/whatsapp.png);
-      background-position: center;
-      background-repeat: no-repeat; }
-    body .footer .twitter {
-      background-image: url(../Imágenes/twitter.png);
-      background-position: center;
-      background-repeat: no-repeat; }
     body .footer .facebook {
-      background-image: url(../Imágenes/facebook.png);
+      background-image: url(../iconos/facebook.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .instagram {
-      background-image: url(../Imágenes/instagram.png);
+      background-image: url(../iconos/instagram.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
+    body .footer .twitter {
+      background-image: url(../iconos/twitter.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
+    body .footer .whatsapp {
+      background-image: url(../iconos/whatsapp.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
   @media only screen and (max-width: 768px) {
     body .rounded-circle {
       width: 150px;
@@ -678,22 +710,30 @@ body {
       font-size: 15px; }
     body .footer .footer__redes {
       display: flex; }
-    body .footer .whatsapp {
-      background-image: url(../Imágenes/whatsapp.png);
-      background-position: center;
-      background-repeat: no-repeat; }
-    body .footer .twitter {
-      background-image: url(../Imágenes/twitter.png);
-      background-position: center;
-      background-repeat: no-repeat; }
     body .footer .facebook {
-      background-image: url(../Imágenes/facebook.png);
+      background-image: url(../iconos/facebook.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .instagram {
-      background-image: url(../Imágenes/instagram.png);
+      background-image: url(../iconos/instagram.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
+    body .footer .twitter {
+      background-image: url(../iconos/twitter.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
+    body .footer .whatsapp {
+      background-image: url(../iconos/whatsapp.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
   @media only screen and (max-width: 768px) {
     body .rounded-circle {
       width: 150px;
@@ -764,22 +804,30 @@ body {
       font-size: 15px; }
     body .footer .footer__redes {
       display: flex; }
-    body .footer .whatsapp {
-      background-image: url(../Imágenes/whatsapp.png);
-      background-position: center;
-      background-repeat: no-repeat; }
-    body .footer .twitter {
-      background-image: url(../Imágenes/twitter.png);
-      background-position: center;
-      background-repeat: no-repeat; }
     body .footer .facebook {
-      background-image: url(../Imágenes/facebook.png);
+      background-image: url(../iconos/facebook.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
     body .footer .instagram {
-      background-image: url(../Imágenes/instagram.png);
+      background-image: url(../iconos/instagram.png);
       background-position: center;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
+    body .footer .twitter {
+      background-image: url(../iconos/twitter.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
+    body .footer .whatsapp {
+      background-image: url(../iconos/whatsapp.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px; }
   @media only screen and (max-width: 768px) {
     body {
       font-size: 19px; }
