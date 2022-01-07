@@ -4,7 +4,7 @@ body{
         background-color: rgb(247, 187, 96)!important;
         .navbar-brand{
             color: rgb(253, 253, 253);
-            font-size: 40px;
+            font-size: $font40;
             text-shadow: 5px 5px 5px #ccc;
             animation-duration: 2s;
             animation-name: aparecer;
@@ -29,20 +29,18 @@ body{
     }
     .main__maspedidos__name{
         color:$blanco;
-        font-size: 20px;
+        font-size: $font20;
     }
     .contenedorEspeciales{
         display: grid;
         width: 100%;
         column-gap: 50px;
         row-gap: 20px;
-        grid-template-columns: 300px 300px;
-        grid-template-rows: 300px 300px 300px;
         margin-bottom: 5px;
         margin-top: 5px;
         justify-content: center;
         .especiales1{
-            background-image: url(/imágenes/boxPadre1.jpg);
+            background-image: url(../imágenes/boxPadre1.jpg);
             background-size: cover;
             grid-column: 1/2;
             grid-row: 1/2;
@@ -55,7 +53,7 @@ body{
         }
         
         .especiales2{
-            background-image: url(/imágenes/boxPostres2.jpg);
+            background-image: url(../imágenes/boxPostres2.jpg);
             background-size: cover;
             grid-column: 2/3;
             grid-row: 1/2;
@@ -66,7 +64,7 @@ body{
             transition: 1s;
         }
         .especiales3{
-            background-image: url(/imágenes/boxPadre2.jpg);
+            background-image: url(../imágenes/boxPadre2.jpg);
             background-size: cover;
             grid-column: 1/2;
             grid-row: 2/3;
@@ -78,7 +76,7 @@ body{
         }
         
         .especiales4{
-            background-image: url(/imágenes/boxMadre1.jpg);
+            background-image: url(../imágenes/boxMadre1.jpg);
             background-size: cover;
             grid-column: 2/3;
             grid-row: 2/3;
@@ -89,7 +87,7 @@ body{
             transition: 1s;
         }
         .especiales5{
-            background-image: url(/imágenes/boxMadre2.jpg);
+            background-image: url(../imágenes/boxMadre2.jpg);
             background-size: cover;
             grid-column: 1/2;
             grid-row: 3/4;
@@ -100,7 +98,7 @@ body{
             transition: 1s;
         }
         .especiales6{
-            background-image: url(/imágenes/boxMadre3.jpg);
+            background-image: url(../imágenes/boxMadre3.jpg);
             background-size: cover;
             grid-column: 2/3;
             grid-row: 3/4;
@@ -131,9 +129,52 @@ body{
              background-image: url(../Imágenes/#{$red}.png);
              background-position: center;
              background-repeat: no-repeat;
-             width: 30px;
-             height: 30px;
             }
+        }
+    }
+    @media only screen and (max-width:768px){
+        .rounded-circle{
+            width: 150px;
+            height: 92px;
+        }
+        .contenedorEspeciales{
+            grid-template-columns: 200px 200px;
+            grid-template-rows: 200px 200px 200px;
+        }
+        .footer__mapa__maps{
+            width: 150px;
+        }
+    }
+    @media only screen and (min-width: 768px){
+        .rounded-circle{
+            width: 170px;
+            height: 102px;
+        }
+        .contenedorEspeciales{
+            grid-template-columns: 250px 250px;
+            grid-template-rows: 250px 250px 250px;
+        }
+        .footer__mapa__maps{
+            width: 250px;
+        }
+    }
+    @media only screen and (min-width: 1024px){
+        .rounded-circle{
+            width: 220px;
+            height: 152px;
+        }
+        .footer__mapa__maps{
+            width: 300px;
+        }
+    }
+    @media only screen and (min-width: 1200px){
+        .rounded-circle{
+            width: 304px;
+            height: 236px;
+        }
+        .contenedorEspeciales{
+            grid-template-columns: 400px 400px;
+            grid-template-rows: 400px 400px 400px;
         }
     }
 }

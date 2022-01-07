@@ -38,14 +38,16 @@ body{
             display: flex;
             flex: 1 1 70%;
             h2{
-                font-size: 26px;
+                font-size: 20px;
                 font-family: 'Roboto', sans-serif;
                 font-weight: bold;
+                color: $blanco;
             }
         }
         .contenedor__aside img{
+            flex: 1 1 30%;
             border-radius: 5%;
-            height: 600px;
+            height: 400px;
         }
     }
     .footer{
@@ -68,8 +70,15 @@ body{
              background-image: url(../Imágenes/#{$red}.png);
              background-position: center;
              background-repeat: no-repeat;
-             width: 30px;
-             height: 30px;
+            }
+        }
+    }
+    @media screen and (max-width:1199px){
+        .contenedor{
+            flex-direction: column;
+            .contenedor__aside img{
+                width: 600px;
+                height: 300px;
             }
         }
     }

@@ -1,5 +1,7 @@
 body{
     background-image: linear-gradient(to right, rgb(201, 119, 119), rgb(231, 25, 180));
+    color: $blanco;
+    font-size: $font20;
     #navBar{
         background-color: rgb(247, 187, 96)!important;
         .navbar-brand{
@@ -27,28 +29,9 @@ body{
             color: $verde !important;
         } 
     }
-    .carrouselName{
-        color: $negro;
-    }
-    .main{
-        .main__maspedidos__name{
-            color:$blanco;
-            font-size: 20px;
-        }
-        .proPrin{
-            color: gainsboro;
-            font-size: 30px;
-            .proPrin img{
-                max-width: 350px;
-            }
-            .proPrin__name{
-                color: $blanco;
-                font-size: 20px;
-            }
-        }
-        .main__infoGeneral{  
-            padding-top: 10px;
-        }  
+    h1{
+        color: $blanco;
+        text-align: center;
     }
     .footer{
         background-color: $naranja;
@@ -57,7 +40,7 @@ body{
         align-items: center;
         .footer__legal{
             color: $azul;
-            font-size: 15px;
+            font-size: $font15;
         }
         .footer__redes{
             display: flex;
@@ -73,63 +56,26 @@ body{
             }
         }
     }
-
     @media only screen and (max-width:768px){
-        .rounded-circle{
-            width: 150px;
-            height: 92px;
+        font-size: $font19;
+        .contacto__title{
+            font-size: $font19;
         }
         .footer__mapa__maps{
-            width: 300px;
+            width: 150px;
         }
-        .main__infoGeneral{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 5px;
-        } 
     }
     @media only screen and (min-width: 768px){
-        .rounded-circle{
-            width: 170px;
-            height: 102px;
-        }
-        .main__infoGeneral{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 5px;
-        } 
         .footer__mapa__maps{
-            width: 300px;
+            width: 250px;
         }
-
     }
     @media only screen and (min-width: 1024px){
-        .rounded-circle{
-            width: 220px;
-            height: 152px;
-        }
-        .main__infoGeneral{
-            display: flex;
-            flex-direction: row;
-            width: 944px;
-            padding-left: 100px;
-        }
-    }
-    @media only screen and (min-width: 1200px){
-        .rounded-circle{
-            width: 304px;
-            height: 236px;
-        }
-        .main__infoGeneral{
-            display: flex;
-            flex-direction: row;
-            width: 1100px;
+        .footer__mapa__maps{
+            width: 300px;
         }
     }
 }
-
 
 
 
