@@ -157,7 +157,9 @@ body {
     body .contenedor .contenedor__aside img {
       flex: 1 1 30%;
       border-radius: 5%;
-      height: 400px; }
+      height: 400px;
+      min-width: 200px;
+      min-height: 200px; }
   body .footer {
     background-color: #f7bb60;
     display: flex;
@@ -654,7 +656,7 @@ body {
     justify-content: center; }
     body .contenedorEspeciales .especiales1 {
       background-image: url(../imágenes/boxPadre1.jpg);
-      background-size: cover;
+      background-size: contain;
       grid-column: 1/2;
       grid-row: 1/2; }
     body .contenedorEspeciales .especiales1:hover {

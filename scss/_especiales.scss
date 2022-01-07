@@ -41,7 +41,7 @@ body{
         justify-content: center;
         .especiales1{
             background-image: url(../imágenes/boxPadre1.jpg);
-            background-size: cover;
+            background-size: contain;
             grid-column: 1/2;
             grid-row: 1/2;
         }
